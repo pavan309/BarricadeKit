@@ -29,13 +29,22 @@ For **unit tests and integration tests** barricade allows you to easily toggle t
 Similarly, **UI tests**, such as [KIF](https://github.com/kif-framework/KIF), can programmatically update selected responses as well, which allows your test suite to cover failure cases as well as the "happy path".
 
 ## Installing BarricadeKit
+
+### CocoaPods
+
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/BarricadeKit.svg)](#cocoapods)
 
-The easiest way to install BarricadeKit is with [CocoaPods](https://github.com/cocoapods/cocoapods):
+[CocoaPods](https://github.com/cocoapods/cocoapods) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website.
 
 ```Ruby
 pod 'BarricadeKit', '~> 2.0.0'
 ```
+
+### Package Manager
+
+[![PackageManager compatible](https://img.shields.io/badge/package%20manager-compatible-brightgreen.svg)](#PackageManager)
+
+The easiest way to install BarricadeKit is with [Package Manager](https://swift.org/package-manager/):
 
 ## Selection Interface
 
