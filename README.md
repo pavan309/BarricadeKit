@@ -44,7 +44,7 @@ pod 'BarricadeKit', '~> 2.0.0'
 
 [![PackageManager compatible](https://img.shields.io/badge/package%20manager-compatible-brightgreen.svg)](#PackageManager)
 
-The easiest way to install BarricadeKit is with [Package Manager](https://swift.org/package-manager/):
+The easiest way to install BarricadeKit is with [Package Manager](https://swift.org/package-manager/).
 
 ## Selection Interface
 
