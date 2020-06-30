@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "BarricadeKit",
-    platforms: [.iOS(.v10)],
+    platforms: [.iOS(.v11)],
     products: [
         .library(
             name: "BarricadeKit",
