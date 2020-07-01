@@ -14,10 +14,7 @@ let package = Package(
     targets: [
         .target(
             name: "BarricadeKit",
-            dependencies: []),
-        .testTarget(
-            name: "BarricadeKitTests",
-            dependencies: ["BarricadeKit"]),
+            dependencies: ["BarricadeKit/Core"])
     ],
     swiftLanguageVersions: [.v5]
 )
