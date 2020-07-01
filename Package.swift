@@ -14,7 +14,7 @@ let package = Package(
     targets: [
         .target(
             name: "BarricadeKit",
-            dependencies: ["BarricadeKit/Core"])
+            path: "BarricadeKit/Core")
     ],
     swiftLanguageVersions: [.v5]
 )
