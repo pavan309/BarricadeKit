@@ -14,11 +14,10 @@ let package = Package(
     targets: [
         .target(
             name: "BarricadeKit",
-            path: "BarricadeKit/Core")
-//        .testTarget(
-//            name: "BarricadeKitTests",
-//            dependencies: ["BarricadeKit"],
-//            path: "BarricadeKit/Core"),
+            dependencies: []),
+        .testTarget(
+            name: "BarricadeKitTests",
+            dependencies: ["BarricadeKit"]),
     ],
     swiftLanguageVersions: [.v5]
 )
